@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Berita Terkini</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
+
+      header {
+        text-align: center;
+        padding: 20px;
+        background-color: #007bff;
+        color: white;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+
+      .card {
+        width: calc(30% - 20px);
+        margin: 10px;
+        padding: 15px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+      }
+
+      .card:hover {
+        transform: scale(1.02);
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+
+      .title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 10px 0;
+      }
+
+      .category {
+        font-size: 0.9rem;
+        color: #007bff;
+      }
+
+      .date {
+        font-size: 0.8rem;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Berita Terkini</h1>
+    </header>
+
+    <div class="container">
+      <div class="card">
+        <img src="gempa.png" alt="Gempa Megathrust" />
+        <div class="title">Mekaniskme dan Dampak Gempa Bumi</div>
+        <div class="category">Nasional</div>
+        <div class="date">11 Oktober 2024</div>
+      </div>
+
+      <div class="card">
+        <img src="banjir.png" alt="Banjir" />
+        <div class="title">
+          Penyebab Banjir Yang Sering Diabaikan Masyarakat
+        </div>
+        <div class="category">Daerah</div>
+        <div class="date">10 Oktober 2024</div>
+      </div>
+
+      <div class="card">
+        <img src="kebakaran1.png" alt="Kebakaran" />
+        <div class="title">
+          Cegah Kebakaran Hutan yg Dapat Menimbulkan Kerusakan Pada Bumi Kita
+        </div>
+        <div class="category">Lingkungan</div>
+        <div class="date">9 Oktober 2024</div>
+      </div>
+
+      <div class="card">
+        <img src="polusi.png" alt="Polusi" />
+        <div class="title">Dampak Buruk Polusi Untuk Negri Kita</div>
+        <div class="category">Nasional</div>
+        <div class="date">13 Oktober 2024</div>
+      </div>
+
+      <div class="card">
+        <img src="Kemacetan.jpg" alt="Kemacetan" />
+        <div class="title">Cegah Kemacetan Demi Kenyamanan Berkendara</div>
+        <div class="category">Daerah</div>
+        <div class="date">16 Oktober 2024</div>
+      </div>
+
+      <div class="card">
+        <img src="pendidikan.jpg" alt="Pendidikan" />
+        <div class="title">Pentingnya Pendidikan di Usia Dini</div>
+        <div class="category">Nasional</div>
+        <div class="date">19 Oktober 2024</div>
+      </div>
+    </div>
+  </body>
+</html>
